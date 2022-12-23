@@ -20,7 +20,7 @@ Complete solution: Expected output as suggested
 ---> For this run the following line :
 python encode.py merge --input_img_to_encode="path of the image to be encoded" --output="path where you want to save the encoded image along with the name with which you want to save the image"
 
----> Example : python encode.py merge --input_img_to_encode="C:\Users\xyz\Desktop\images\sunset.jpeg" 
+---> Example : python encode.py merge --input_img_to_encode="C:\Users\xyz\Desktop\images\sunset.jpg" 
                --output="C:\Users\xyz\Desktop\images\encoded_sunset.png" 
 
 
