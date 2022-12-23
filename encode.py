@@ -18,7 +18,7 @@ qr = qrcode.make(secret_code)
 im = Image.open(args.input_img_to_encode)
 qr = qr.convert('RGB')
 
-# Resizing the iamge and qrcode
+# Resizing the image and qrcode
 width,height = None,None
 if(im.size[0] > qr.size[0]):
    width = im.size[0]
